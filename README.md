@@ -7,7 +7,6 @@ To write and execute an Assembly language program for finding the square of a gi
 ## APPARATUS REQUIRED
 - Personal computer
 - Keil μVision IDE
-- 
 
 ## ALGORITHM
 1. Enter the Assembly language program.
@@ -16,7 +15,8 @@ To write and execute an Assembly language program for finding the square of a gi
 4. The output square value is stored in Port 2 (P2).
 
 ## PROGRAM
-```ORG 0000H
+```
+ORG 0000H
 MOV R0,#50H
 MOV A,@R0 
 MOV B,@R0 
@@ -24,19 +24,9 @@ MUL AB
 INC R0 
 MOV @R0,A
 END
-
-
-
-
-
-
-
-
-
 ```
-
 ## OUTPUT
-<img width="1600" height="839" alt="WhatsApp Image 2026-07-31 at 2 19 03 PM" src="https://github.com/user-attachments/assets/378f4b1f-3e00-46a3-ab27-ab2a5ad8f356" />
+<img width="1600" height="858" alt="image" src="https://github.com/user-attachments/assets/81ea3842-d848-4a1a-bc9f-d6b5f5ea1724" />
 
 
 ## RESULT
@@ -59,7 +49,6 @@ To write and execute an Assembly language program for finding the cube of a give
 
 ## PROGRAM
 ```
-
 ORG 00H
 MOV R0,#50H
 MOV A,@R0
@@ -72,17 +61,10 @@ MOV @R0,A
 INC R0
 MOV @R0,B
 END
-
-
-
-
-
-
 ```
 
-
 ## OUTPUT
-<img width="1600" height="838" alt="WhatsApp Image 2026-07-31 at 2 19 04 PM" src="https://github.com/user-attachments/assets/e10268df-9ed8-4fda-a443-6632b0fd1f71" />
+<img width="1917" height="1077" alt="cube" src="https://github.com/user-attachments/assets/cb8a8ec1-5e00-47fe-9c1d-8249e3e08ea6" />
 
 ## RESULT
 Thus, the cube of the given data is calculated using 8051 Keil.
